@@ -31,7 +31,7 @@
 		#Range: 0 ~ 256
 		timePedBonus = 0
 		#Factor the Watch of Flowing Time slows down mobs by while in the pedestal. Set to 1.0 for no slowdown.
-		#Range: 1.0
+		#Range: 0.0 ~ 1.0
 		timePedMobSlowness = 0.1
 		#If true the Interdiction Torch only affects hostile mobs and projectiles. If false it affects all non blacklisted living entities.
 		interdictionMode = true
