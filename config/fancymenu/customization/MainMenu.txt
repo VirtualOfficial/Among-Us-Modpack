@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/amongus.gif
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = 3dbf8ced-1c79-4f2e-ad44-8a4d36f3e83a1626121728688
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  path = config/fancymenu/mogus.jpg
+  orientation = top-centered
+  x = -94
+  width = 189
+  action = addtexture
+  actionid = 96fd5c9f-275a-47ec-aade-4588a481a0c61626121841340
+  y = 20
+  height = 54
+}
+
